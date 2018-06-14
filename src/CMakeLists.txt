@@ -1,3 +1,3 @@
-add_executable(hello hello.c)
+add_executable(helloCmake hello.c)
 
-install(TARGETS hello DESTINATION bin)
+install(TARGETS helloCmake DESTINATION bin)
