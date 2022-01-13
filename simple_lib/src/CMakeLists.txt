@@ -1,3 +1,4 @@
-add_library(helloLib hello_lib.c)
+add_library(helloLib SHARED hello_lib.c)
 
-install(TARGETS helloCmake DESTINATION bin)
+install (TARGETS helloLib
+         LIBRARY DESTINATION lib)
