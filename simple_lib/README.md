@@ -9,13 +9,11 @@ cd build
 
 step 2. configure cmake
 ```
-cmake ../
+cmake ../ -DCMAKE_INSTALL_PREFIX=$PWD/install
 ```
 
 step 3. build
 ```
 make
 make install
-# or
-# make DESTDIR=$PWD install
 ```
