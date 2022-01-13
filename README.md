@@ -16,4 +16,6 @@ step 3. build
 ```
 make
 make install
+# or
+# make DESTDIR=$PWD install
 ```
